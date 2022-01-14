@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html> 
+    
+<head> 
+   <title>Wordpress</title>
+    </head>
+
+<style>
+
+    @font-face {
+        font-family: SegoeBold;
+        src: url("Segoe UI Bold.ttf");
+    }
+    @font-face {
+        font-family: SegoeUI;
+        src: url("Segoe UI.ttf");
+    }
+    
+    body {
+        font-family: SegoeBold;
+        margin: 0;
+        color: #00101c;
+        
+        
+    }
+    header {
+        background-color: #055d9c;
+        color: white;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 16px;
+        padding-right: 16px;
+        display: flex;
+        font-weight: bold;
+        
+    }
+    #logo {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-image: url("logo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-right: 8px;
+    }
+    #flex {
+        flex: 1;
+    }
+    #botonheader
+    {
+        background-color: #055d9c;
+        border: none;
+        color:white;
+        font: size 14px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 16px;
+        padding-left: 16px;
+
+    }
+    #main_body {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin-top: 90px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #title {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+    #tarjeta {
+        background-color: white;
+        border: white;
+        border-radius: 1px;
+        padding: 24px;
+    }
+    #etiqueta {
+        font-size: 0.875rem;
+        font-weight: bold;
+    }
+    #formulario 
+    {
+        width: 100%-8px;
+        border: none;
+        background-color: #ab235a;
+        color: white;
+        font-size: 14px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 14px;
+        padding-right: 14px;
+        margin-top: 8px;
+        height: 40px;
+    }
+    #ancho 
+    {
+        color: #ab235a;
+    }
+
+
+</style>
+
+<body>
+    <header>
+        
+    <div id="logo">
+        <span id= "botonheader"> wordpress.com </span>
+        <span class="flex" , id="flex">
+        </span>
+        <button>Registrarse</button>
+    
+    </div>
+    </header>
+
+    <main id="main_body">
+    <div id="title"></div>
+    <div class="card" id="tarjeta">
+        <label id="etiqueta">Direccion de correo electronico o nombre de usuario</label>
+        <input type="email" id= "formulario">
+        <div id="terms">Al continuar, aceptas nuestras <a href="#" id="ancho">condiciones del servicio</a></div>
+    </div>
+</main>
+</body>
+
+
+
+
+</html>
